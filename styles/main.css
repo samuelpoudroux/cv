@@ -1515,7 +1515,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #097caa;
   color: #FFFFFF;
 }
 
@@ -5601,7 +5601,7 @@ Created using IcoMoon - icomoon.io
     right: 0;
     z-index: 1032;
     visibility: visible;
-    background-color: #999;
+    background-color: blue;
     overflow-y: visible;
     border-top: none;
     text-align: left;
@@ -7058,7 +7058,7 @@ Created using IcoMoon - icomoon.io
 .page-header .btn {
   width: 25%;
   border-radius: 15%;
-  background-color: rgba(0, 115, 177,0.5);
+  background-color: rgba(0, 115, 177,0.8);
   font-style:bold;
   font-size:1.1em;
 }
@@ -7277,4 +7277,99 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 430px) {
+  .content-center{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  }
+
+  .page-header .btn {
+
+  width: 70%;
+  margin-top: 3%;
+  position:relative;
+  left:16%;
+  }
+
+  .button-container{
+  display:flex;
+  flex-wrap: nowrap;
+  width:60%;
+  margin:auto;
+  }
+
+  .title{
+  font-size: 1.5em;
+  text-align: center;
+  }
+  
+  p{
+  text-align:center;
+  }
+
+  .h5{
+    text-align:center;
+  }
+
+  .cc-experience-header p{
+    text-align:center;
+
+  }
+}
+
+
+@media screen and (min-width: 431px) and (max-width: 801px) {
+  .content-center{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  }
+
+  .page-header .btn {
+
+  width: 40%;
+  margin-top: 3%;
+  position:relative;
+  left:30%;
+  }
+
+  .button-container{
+  display:flex;
+  flex-wrap: nowrap;
+  width:100%;
+  margin:2px auto;
+  position:relative;
+  left:10%;
+  }
+
+  .title{
+  font-size: 1.5em;
+  text-align: center;
+  }
+  
+  p{
+  text-align:center;
+  }
+
+  .h5{
+    text-align:center;
+    font-size:0.9em;
+  }
+
+  .cc-experience-header p{
+    text-align:center;
+    font-size:0.9em;
+  }
+
+  .bg-primary{
+    width
+  }
 }
