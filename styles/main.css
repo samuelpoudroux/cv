@@ -590,15 +590,15 @@
 }
 
 .slider.slider-primary .noUi-connect, .slider.slider-primary.noUi-connect {
-  background-color: #378C3F;
+  background-color: rgb(5, 5, 5);
 }
 
 .slider.slider-primary.noUi-target {
-  background-color: rgba(55, 140, 63, 0.4);
+  background-color: rgba(12, 12, 12, 0.4);
 }
 
 .slider.slider-primary .noUi-handle {
-  background-color: #378C3F;
+  background-color: rgb(18, 19, 18);
 }
 
 .slider.slider-info .noUi-connect, .slider.slider-info.noUi-connect {
@@ -614,11 +614,11 @@
 }
 
 .slider.slider-success .noUi-connect, .slider.slider-success.noUi-connect {
-  background-color: #18ce0f;
+  background-color: #1c1d1c;
 }
 
 .slider.slider-success.noUi-target {
-  background-color: rgba(24, 206, 15, 0.3);
+  background-color: rgba(47, 48, 47, 0.3);
 }
 
 .slider.slider-success .noUi-handle {
@@ -3932,7 +3932,7 @@ Created using IcoMoon - icomoon.io
   display: inline-block;
   font: normal normal normal 14px/1 'Nucleo Outline';
   font-size: inherit;
-  speak: none;
+  speak-as: none;
   text-transform: none;
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
@@ -4737,7 +4737,7 @@ Created using IcoMoon - icomoon.io
 
 .footer nav {
   display: inline-block;
-  float: left;
+
 }
 
 .footer ul {
@@ -7063,6 +7063,16 @@ Created using IcoMoon - icomoon.io
   font-size:1.1em;
 }
 
+ .btn:hover{
+  
+    background-color: rgba(12, 12, 12, 0.8);
+   
+}
+
+.bluetitle{
+  color:#097caa;
+}
+
 /* Profile Image Style */
 @-webkit-keyframes pulsate {
   0% {
@@ -7341,6 +7351,9 @@ a.credit {
   left:30%;
   }
 
+
+  
+
   .button-container{
   display:flex;
   flex-wrap: nowrap;
@@ -7367,9 +7380,5 @@ a.credit {
   .cc-experience-header p{
     text-align:center;
     font-size:0.9em;
-  }
-
-  .bg-primary{
-    width
   }
 }
