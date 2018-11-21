@@ -5141,7 +5141,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .page-header-image {
   position: absolute;
-  background-size: cover;
+  background-size: stretch;
   background-position: center center;
   width: 100%;
   height: 100%;
@@ -6779,6 +6779,14 @@ Created using IcoMoon - icomoon.io
   }
 }
 
+.text-muted p{
+  width: 100%;
+  font-size: 0.7em;
+}
+
+
+
+
 @media screen and (max-width: 576px) {
   .navbar[class*='navbar-expand-'] .container {
     margin-left: 0;
@@ -7330,7 +7338,7 @@ a.credit {
   .cc-experience-header p{
     text-align:center;
 
-  }
+  }  
 }
 
 
@@ -7380,5 +7388,10 @@ a.credit {
   .cc-experience-header p{
     text-align:center;
     font-size:0.9em;
+  }
+
+  .page-header .page-header-image {
+    background-size: cover;
+    ;
   }
 }
