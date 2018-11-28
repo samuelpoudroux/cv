@@ -7640,7 +7640,7 @@ Created using IcoMoon - icomoon.io
   border-radius: 15%;
   background-color: rgba(0, 115, 177, 0.8);
   font-style: bold;
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 .btn:hover {
@@ -7713,8 +7713,8 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 220px;
+  width: 220px;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
@@ -8037,4 +8037,16 @@ a.credit {
 
 .col-md-4:hover{
    
+}
+
+.card-body p {
+  font-size: 1.2em;
+}
+
+.info{
+  font-size:1.2em;
+}
+
+.jobtitle{
+  font-size:1.5em;
 }
