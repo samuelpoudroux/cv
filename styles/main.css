@@ -3635,6 +3635,7 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
+  
 }
 
 .navbar .navbar-toggler {
@@ -3664,6 +3665,7 @@ body {
   box-shadow: none;
   color: #FFFFFF;
   padding-top: 20px;
+  padding-left: 50%;
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item) {
