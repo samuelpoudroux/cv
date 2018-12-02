@@ -7877,6 +7877,43 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+.skills{
+  font-size: 2em;
+  text-transform: uppercase;
+  
+  
+}
+
+.skilldiv{
+  width: auto;
+  text-align:center;
+}
+
+.skilldiv li{
+  color:#086495;
+  list-style : square;
+ 
+}
+
+li span{
+  
+  background: -webkit-linear-gradient(#050b0e, #086495);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+.skillsection{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+}
+
+.softskilldiv{
+  width:50%;
+  text-align:center;
+}
 
 
 @media screen and (max-width: 430px) {
@@ -7925,6 +7962,59 @@ a.credit {
 
   }
 
+  .html5 {
+    width: 80%;
+    
+  }
+  
+  .hover:hover {
+    transform: scale(1.2);
+    transform: rotate(720deg);
+    transition: ease-in-out 1s;
+  
+  }
+  
+  .css3 {
+    width: 58%;
+  
+  }
+  
+  .js {
+    width: 74%;
+  
+  }
+  
+  .php {
+    width: 85%;
+    margin-top: 3%;
+  
+  }
+  
+  .boot {
+    width: 85%;
+  
+  }
+  
+  .word {
+    width: 140%;
+  
+  }
+  
+  .git {
+    width: 100%;
+  }
+  
+  .symph{
+    width: 100%;
+  }
+
+  .skillsection .NC{
+    padding-top :13%;
+  }
+
+  .skills{
+    font-size: 1.2em;
+  }
   
 }
 
@@ -7981,53 +8071,15 @@ a.credit {
     background-size: cover;
 
   }
-}
 
-.html5 {
-  width: 35%;
+  .skillsection .NC{
+    padding-top :6.5%;  
+  }
+
   
 }
 
-.hover:hover {
-  transform: scale(1.2);
-  transform: rotate(720deg);
-  transition: ease-in-out 1s;
 
-}
-
-.css3 {
-  width: 25%;
-
-}
-
-.js {
-  width: 32%;
-
-}
-
-.php {
-  width: 39%;
-  margin-top: 3%;
-
-}
-
-.boot {
-  width: 40%;
-
-}
-
-.word {
-  width: 65%;
-
-}
-
-.git {
-  width: 50%;
-}
-
-.symph{
-  width: 60%;
-}
 
 .center {
   display: flex;
@@ -8043,9 +8095,6 @@ a.credit {
   padding-bottom: 2%;
 }
 
-.col-md-4:hover{
-   
-}
 
 .card-body p {
   font-size: 1.2em;
@@ -8057,4 +8106,114 @@ a.credit {
 
 .jobtitle{
   font-size:1.5em;
+}
+
+.webskillsa{
+  display: flex;
+  justify-content: center;
+  margin-top : 2%;
+}
+
+.webskillsa a{
+  width: 33%;
+text-align:center;
+}
+
+.webskillsb{
+  display: flex;
+  justify-content: center;
+  margin-top : 10%;
+}
+
+.webskillsb a{
+  width: 33%;
+text-align:center;
+}
+
+.webskillsc{
+  display: flex;
+  justify-content: center;
+  margin-top : 10%;
+}
+
+.webskillsc a{
+  width: 33%;
+text-align:center;
+}
+
+@media screen and (min-width: 431px) and (max-width: 1800px) {
+.html5 {
+  width: 40%;
+  
+}
+
+.hover:hover {
+  transform: scale(1.2);
+  transform: rotate(720deg);
+  transition: ease-in-out 1s;
+
+}
+
+.css3 {
+  width: 29%;
+
+}
+
+.js {
+  width: 36%;
+
+}
+
+.php {
+  width: 50%;
+  margin-top: 3%;
+
+}
+
+.boot {
+  width: 50%;
+
+}
+
+.word {
+  width: 65%;
+
+}
+
+.git {
+  width: 58%;
+}
+
+.symph{
+  width: 58%;
+}
+
+}
+
+.contactlink{
+  color: #097caa;
+}
+
+.contactlink:hover{
+  color: blue;
+}
+
+.introduction{
+  display:flex;
+  flex-direction: column;
+  justify-content: justify;
+  text-align: justify;
+}
+
+
+.introduction p{
+  justify-content: justify;
+  text-align:justify;
+}
+
+.softskilldiv li{
+  
+    color: #097caa;
+    list-style: square;
+
 }
