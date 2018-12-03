@@ -7641,7 +7641,6 @@ Created using IcoMoon - icomoon.io
   width: 25%;
   border-radius: 15%;
   background-color: rgba(0, 115, 177, 0.8);
-  font-style: bold;
   font-size: 1.4em;
 }
 
@@ -8201,13 +8200,11 @@ text-align:center;
 .introduction{
   display:flex;
   flex-direction: column;
-  justify-content: justify;
   text-align: justify;
 }
 
 
 .introduction p{
-  justify-content: justify;
   text-align:justify;
 }
 
